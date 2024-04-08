@@ -1,3 +1,10 @@
 .flex-container {
     display: flex;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.result {
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
 }
