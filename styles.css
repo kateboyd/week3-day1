@@ -1,6 +1,12 @@
-.flex-container {
-    display: flex;
+.container {
     font-family: 'Courier New', Courier, monospace;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    max-width: 250px;
+    padding: 20px
 }
 
 .result {
@@ -8,3 +14,8 @@
     color: white;
     text-align: center;
 }
+
+.summary {
+    text-align: center;
+}
+
