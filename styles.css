@@ -1,5 +1,6 @@
 .container {
     font-family: 'Courier New', Courier, monospace;
+    border-radius: 12px;
 }
 
 .column {
@@ -11,11 +12,28 @@
 
 .result {
     background-color: blueviolet;
+    border-radius: 12px;
     color: white;
     text-align: center;
 }
 
 .summary {
     text-align: center;
+}
+
+.reaction {
+    background-color; #FF0000FF;
+}
+
+.memory {
+
+}
+
+.verbal {
+
+}
+
+.visual {
+
 }
 
