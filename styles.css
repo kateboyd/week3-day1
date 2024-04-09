@@ -1,7 +1,8 @@
 .container {
+   width: 600px;
     display: flex;
     justify-content: center;
-    font-family: 'Courier New', Courier, monospace;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     border-radius: 12px;
     box-shadow: 0px 0px 5px 2px #888888;
 }
@@ -12,11 +13,16 @@
 }
 
 .score {
+    width: 60px;
+    height: 60px;
     font-size: 20px;
     border-radius: 50%; 
     background: purple;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 20px;
+}
+
+.comparison {
+    font-size: 10px;
 }
 
 .result {
@@ -27,12 +33,14 @@
 }
 
 .summary {
-    text-align: center;
+    text-align: left;
 }
 
 li {
-    padding: 10px;
+    padding: 12px;
+    margin-bottom: 12px;
     border-radius: 12px;
+    font-size: 15px;
 }
 
 ul {
@@ -40,32 +48,36 @@ ul {
 }
 
 .reaction {
+    padding-left: 20px;
     color: red;
     background-color: #FFDCDC;
 }
 
 .memory {
+    padding-left: 20px;
     color: orange;
     background-color: #ffffe5;
 }
 
 .verbal {
+    padding-left: 20px;
     color: green;
     background-color: #EFFFE8;
 }
 
 .visual {
+    padding-left: 20px;
     color: blue;
     background-color: aliceblue;
 }
 
 button {
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 2px;
-    padding-bottom: 2px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 12px;
+    padding-bottom: 12px;
     border: none;
-    border-radius: 6px;
+    border-radius: 30px;
     background: navy;
     color: white;
 	transition: background 2s;
